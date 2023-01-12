@@ -2,7 +2,7 @@
 
 This KPI Overview Plugin is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It help you to display the Device KPIs with customised KPI Name, icon, text, color and size.
 
-<img src="./widget/assets/img-preview.png" />
+<img src="./widget/assets/img-preview.PNG" />
 
 ### Please note that this plugin is in currently under BETA mode.
 
