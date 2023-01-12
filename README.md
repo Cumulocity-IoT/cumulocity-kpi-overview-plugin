@@ -1,4 +1,5 @@
-# Cumulocity KPI Overview plugin [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/cumulocity-kpi-overview-plugin-1.0.0-beta.zip)
+# Cumulocity KPI Overview plugin [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/kpi-overview-runtime-widget-1.0.0-beta.zip)
+
 
 This KPI Overview Plugin is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It help you to display the Device KPIs with customised KPI Name, icon, text, color and size.
 
@@ -25,7 +26,7 @@ This KPI Overview Plugin is the Cumulocity module federation plugin created usin
    
 ### Runtime Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/cumulocity-kpi-overview-plugin-1.0.0-beta.zip) and install via Administrations(Beta mode) --> Ecosystems --> Applications --> Packages 
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/kpi-overview-runtime-widget-1.0.0-beta.zip) and install via Administrations(Beta mode) --> Ecosystems --> Applications --> Packages 
    
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.
