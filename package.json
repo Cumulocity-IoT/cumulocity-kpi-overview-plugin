@@ -57,22 +57,25 @@
   },
   "c8y": {
     "application": {
-      "name": "cumulocity-kpi-overview-plugin",
-      "description": "Cumulocity Kpi Overview Module Federation",
+      "name": "Cumulocity KPI Overview Widget Plugin",
+      "description": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
       "contextPath": "kpi-overview-runtime-widget",
       "key": "kpi-overview-runtime-widget-application-key",
-      "globalTitle": "Cumulocity Kpi Overview Module Federation",
+      "globalTitle": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
       "package": "plugin",
       "requiredPlatformVersion": ">=1016.0.0",
+      "icon": {
+        "class": "dlt-c8y-icon-newspaper-o"
+      },
       "exports": [
         {
-          "name": "Cumulocity KPI Overview plugin",
+          "name": "Cumulocity KPI Overview Widget Plugin",
           "module": "GpKpiOverviewWidgetModule",
           "path": "./widget/gp-kpi-overview-widget.module.ts",
-          "description": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size"
+          "description": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size."
         }
       ],
       "remotes": {

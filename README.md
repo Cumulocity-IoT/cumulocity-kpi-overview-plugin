@@ -7,11 +7,11 @@ This KPI Overview Plugin is the Cumulocity module federation plugin created usin
 
 ### Please note that this plugin is in currently under BETA mode.
 
-### Please choose KPI Trend Widget release based on Cumulocity/Application builder version:
+### Please choose KPI Overview Widget release based on Cumulocity/Application builder version:
 
-|APPLICATION BUILDER | CUMULOCITY | KPI TREND WIDGET PLUGIN  |
-|--------------------|------------|--------------------------|
-| 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                    |
+|APPLICATION BUILDER | CUMULOCITY | KPI OVERVIEW WIDGET PLUGIN  |
+|--------------------|------------|-----------------------------|
+| 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                       |
 
 ## Features
 * Display Device data: Displays Device data kpis for selected Device/Asset.
@@ -24,14 +24,14 @@ This KPI Overview Plugin is the Cumulocity module federation plugin created usin
    
 ## Installation
    
-### Runtime Deployment?
+### Runtime Widget Deployment?
 
 * This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/kpi-overview-runtime-widget-1.0.0-beta.zip) and install via Administrations(Beta mode) --> Ecosystems --> Applications --> Packages 
    
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.
 
-1.  Make sure you have successfully installed the plugin.
+1. Make sure you have successfully installed the plugin.
 2. Open you application from App Switcher
 3. Click on `Add widget`
 4. Search for `KPI Overview` 
