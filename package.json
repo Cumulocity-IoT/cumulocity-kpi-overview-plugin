@@ -1,16 +1,18 @@
 {
   "name": "cumulocity-kpi-overview-plugin",
-  "version": "1.0.0-beta",
-  "description": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
+  "version": "1.0.0",
+  "description": "The KPI Overview Widget helps you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
   "scripts": {
-    "start": "c8ycli server --env.beta=true",
+    "start": "c8ycli server",
     "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [],
+  "keywords": ["Cumulocity",
+    "Plugin",
+    "Widget"],
   "author": "Sabreen Irfana- Software AG, Global Presales",
   "license": "Apache-2.0",
   "dependencies": {
@@ -57,11 +59,11 @@
   },
   "c8y": {
     "application": {
-      "name": "Cumulocity KPI Overview Widget Plugin",
-      "description": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
-      "contextPath": "kpi-overview-runtime-widget",
-      "key": "kpi-overview-runtime-widget-application-key",
-      "globalTitle": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
+      "name": "KPI Overview Widget",
+      "description": "The KPI Overview Widget helps you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
+      "contextPath": "sag-ps-pkg-kpi-overview-widget",
+      "key": "sag-ps-pkg-kpi-overview-widget-application-key",
+      "globalTitle": "The KPI Overview Widget helps you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
@@ -72,10 +74,10 @@
       },
       "exports": [
         {
-          "name": "Cumulocity KPI Overview Widget Plugin",
+          "name": "KPI Overview Widget",
           "module": "GpKpiOverviewWidgetModule",
           "path": "./widget/gp-kpi-overview-widget.module.ts",
-          "description": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size."
+          "description": "The KPI Overview Widget helps you to display the Device KPIs with customised KPI Name, icon, text, color and size."
         }
       ],
       "remotes": {

@@ -5,3 +5,10 @@
 .hideColorPicker {
     display: none;
 }
+
+@media screen and (max-width: 960px) {
+    .borderBottom {
+        display: block;
+        border: 1px solid #ccc;
+    }
+}

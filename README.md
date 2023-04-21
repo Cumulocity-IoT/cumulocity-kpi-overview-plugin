@@ -1,17 +1,15 @@
-# Cumulocity KPI Overview plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/kpi-overview-runtime-widget-1.0.0-beta.zip)
+# Cumulocity KPI Overview plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0/sag-ps-pkg-kpi-overview-widget-1.0.0.zip)
 
 
-This KPI Overview Plugin is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It help you to display the Device KPIs with customised KPI Name, icon, text, color and size.
+The KPI Overview Plugin is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. It helps you to display the Device KPIs with customised KPI Name, icon, text, color and size.
 
 <img src="./widget/assets/img-preview.PNG" />
-
-### Please note that this plugin is in currently under BETA mode.
 
 ### Please choose KPI Overview Widget release based on Cumulocity/Application builder version:
 
 |APPLICATION BUILDER | CUMULOCITY | KPI OVERVIEW WIDGET PLUGIN  |
 |--------------------|------------|-----------------------------|
-| 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                       |
+| 2.0.x              | >= 1016.x.x| 1.x.x                       |
 
 ## Features
 * Display Device data: Displays Device data kpis for selected Device/Asset.
@@ -26,7 +24,7 @@ This KPI Overview Plugin is the Cumulocity module federation plugin created usin
    
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0-beta/kpi-overview-runtime-widget-1.0.0-beta.zip) and install via Administrations(Beta mode) --> Ecosystems --> Applications --> Packages 
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin/releases/download/1.0.0/sag-ps-pkg-kpi-overview-widget-1.0.0.zip) and install via Administrations --> Ecosystems --> Applications --> Packages 
    
 ## QuickStart
 This guide will teach you how to add widget in your existing or new dashboard.

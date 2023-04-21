@@ -50,7 +50,7 @@ import { ColorPaletteComponent } from './color-picker/color-palette/color-palett
         id: 'kpi-overview.widget',
         label: 'KPI Overview',
         previewImage: preview.previewImage,
-        description: 'KPI Overview',
+        description: 'The KPI Overview Widget helps you to display the Device KPIs with customised KPI Name, icon, text, color and size.',
         component: GpKpiOverviewWidgetComponent,
         configComponent: GpKpiOverviewWidgetConfigComponent,
         data: {
