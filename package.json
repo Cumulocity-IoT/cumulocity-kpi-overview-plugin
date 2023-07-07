@@ -10,9 +10,11 @@
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": ["Cumulocity",
+  "keywords": [
+    "Cumulocity",
     "Plugin",
-    "Widget"],
+    "Widget"
+  ],
   "author": "Sabreen Irfana- Software AG, Global Presales",
   "license": "Apache-2.0",
   "dependencies": {
@@ -84,7 +86,17 @@
         "widget-plugin": [
           "GpKpiOverviewWidgetModule"
         ]
-      }
+      },
+      "copy": [
+        {
+          "from": "images/img-preview.PNG",
+          "to": "images/img-preview.PNG"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE.txt"
+        }
+      ]
     },
     "cli": {}
   },
