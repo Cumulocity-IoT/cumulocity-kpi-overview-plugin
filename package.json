@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-kpi-overview-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The KPI Overview Widget helps you to display the Device KPIs with customised KPI Name, icon, text, color and size.",
   "scripts": {
     "start": "c8ycli server",

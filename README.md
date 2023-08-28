@@ -7,7 +7,7 @@ The KPI Overview Plugin is the Cumulocity module federation plugin created using
 
 ### Please choose KPI Overview Widget release based on Cumulocity/Application builder version:
 
-|APPLICATION BUILDER | CUMULOCITY | KPI OVERVIEW WIDGET PLUGIN  |
+| APPLICATION BUILDER &nbsp;| &nbsp;CUMULOCITY &nbsp;| &nbsp; KPI OVERVIEW WIDGET PLUGIN &nbsp;|
 |--------------------|------------|-----------------------------|
 | 2.0.x              | >= 1016.x.x| 1.x.x                       |
 
